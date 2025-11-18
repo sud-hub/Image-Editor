@@ -2,7 +2,7 @@
 
 A powerful, full-featured image editing application powered by AI and traditional image processing techniques. Built with React, FastAPI, and OpenCV.
 
-## 🌟 Features
+## Features
 
 ### AI Features
 - **AI Edit** - Natural language image editing using Google Gemini AI
@@ -18,14 +18,14 @@ A powerful, full-featured image editing application powered by AI and traditiona
 - **Convert** - Format conversion (PNG, JPG, WebP, BMP, TIFF, GIF, ICO)
 - **Compress** - Image compression with quality control and size comparison
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - Node.js 16+
 - npm or yarn
 - Google API Key (for AI features)
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -77,7 +77,7 @@ Open your browser and navigate to:
 http://localhost:5173
 ```
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Getting Started
 1. **Upload an Image** - Click the upload area or drag & drop an image
@@ -104,7 +104,7 @@ http://localhost:5173
 ### Undo Feature
 Use the **Undo** button to revert to the previous state. You can undo multiple times to go back through your edit history.
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ai-image-editor/
@@ -127,7 +127,7 @@ ai-image-editor/
 └── .gitignore
 ```
 
-## 🔧 Technology Stack
+## Technology Stack
 
 ### Frontend
 - **React** - UI framework
@@ -155,29 +155,14 @@ ai-image-editor/
 ### Image Editing
 ![Image Editing](./screenshots/image-editing.png)
 
-## 🐛 Troubleshooting
-
-### Backend Connection Issues
-- Ensure the backend is running on `http://localhost:8000`
-- Check that the CORS middleware is properly configured
-- Verify your firewall settings
+## Troubleshooting
 
 ### AI Features Not Working
 - Verify your Google API Key is correct
 - Check your internet connection
 - Ensure you have sufficient API quota
 
-### Image Upload Issues
-- Check file size (recommended < 50MB)
-- Verify file format is supported (PNG, JPG, WebP, etc.)
-- Ensure sufficient disk space
-
-### Performance Issues
-- Reduce image size before editing
-- Close other applications to free up memory
-- Clear browser cache if needed
-
-## 📝 API Endpoints
+## API Endpoints
 
 ### Image Processing
 - `POST /api/upload` - Upload image
@@ -195,21 +180,21 @@ ai-image-editor/
 - `POST /api/remove-background` - Remove background
 - `POST /api/generative-fill` - Generative fill
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Google Gemini AI for AI features
 - OpenCV for image processing
 - React and FastAPI communities
 
-## 📧 Support
+## Support
 
 For issues, questions, or suggestions, please open an issue on GitHub.
 

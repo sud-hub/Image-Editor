@@ -45,10 +45,4 @@ yarn-error.log*
 
 # Old files
 uploads/
-static/
-templates/
-img-edit/
-main.py
 api.py
-image_processing.py
-environment.yml
