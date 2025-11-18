@@ -19,6 +19,7 @@ build/
 backend/uploads/
 backend/outputs/
 backend/venv/
+backend/.env
 
 # Frontend
 frontend/node_modules/
@@ -31,6 +32,7 @@ frontend/.env
 .idea/
 *.swp
 *.swo
+.kiro/
 
 # OS
 .DS_Store
