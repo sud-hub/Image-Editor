@@ -22,8 +22,11 @@ function App() {
 
   const handleImageUpload = (image) => {
     setUploadedImage(image)
-    // Save to session
-    localStorage.setItem('imageEditorSession', JSON.stringify(image))
+    // Save to session (only save the preview, not the File object)
+    localStorage.setItem('imageEditorSession', JSON.stringify({
+      preview: image.preview
+      // Don't save file object - it can't be serialized
+    }))
   }
 
   const handleReset = () => {

@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 60vh;
+  padding: 1rem;
 }
 
 .upload-zone {
@@ -15,6 +16,8 @@
   transition: all 0.3s ease;
   position: relative;
   min-width: 400px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .upload-zone:hover {
@@ -36,6 +39,7 @@
 .upload-zone h2 {
   color: #333;
   margin-bottom: 0.5rem;
+  font-size: 1.8rem;
 }
 
 .upload-zone p {
@@ -51,4 +55,79 @@
   height: 100%;
   opacity: 0;
   cursor: pointer;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .upload-zone {
+    min-width: 350px;
+    padding: 3rem;
+  }
+
+  .upload-zone h2 {
+    font-size: 1.6rem;
+  }
+
+  .upload-zone svg {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .uploader-container {
+    min-height: 50vh;
+  }
+
+  .upload-zone {
+    min-width: 280px;
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+  }
+
+  .upload-zone h2 {
+    font-size: 1.4rem;
+  }
+
+  .upload-zone p {
+    font-size: 0.9rem;
+  }
+
+  .upload-zone svg {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .uploader-container {
+    min-height: 40vh;
+    padding: 0.5rem;
+  }
+
+  .upload-zone {
+    min-width: auto;
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+    border-width: 2px;
+  }
+
+  .upload-zone h2 {
+    font-size: 1.2rem;
+  }
+
+  .upload-zone p {
+    font-size: 0.85rem;
+  }
+
+  .upload-zone svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .upload-zone:hover {
+    transform: translateY(-2px);
+  }
 }
